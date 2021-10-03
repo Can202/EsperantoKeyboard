@@ -9,7 +9,7 @@ def main():
     keyboard.add_hotkey('alt+^+h', lambda: write("ĥ"))
     keyboard.add_hotkey('alt+^+s', lambda: write("ŝ"))
     keyboard.add_hotkey('alt+^+h', lambda: write("ĥ"))
-    keyboard.add_hotkey('alt+^+u', lambda: write("ŭ"))
+    keyboard.add_hotkey('ctrl+alt+^+u', lambda: write("ŭ"))
     
     keyboard.add_hotkey('alt+shift+^+j', lambda: write("Ĵ"))
     keyboard.add_hotkey('alt+shift+^+c', lambda: write("Ĉ"))
@@ -17,7 +17,7 @@ def main():
     keyboard.add_hotkey('alt+shift+^+h', lambda: write("Ĥ"))
     keyboard.add_hotkey('alt+shift+^+s', lambda: write("Ŝ"))
     keyboard.add_hotkey('alt+shift+^+h', lambda: write("Ĥ"))
-    keyboard.add_hotkey('alt+shift+^+u', lambda: write("Ŭ"))
+    keyboard.add_hotkey('ctrl+shift+alt+^+u', lambda: write("Ŭ"))
     keyboard.add_hotkey('alt+shift+s+q', byebye)
     while True:
         keyboard.wait()
