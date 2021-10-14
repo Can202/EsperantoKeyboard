@@ -1,4 +1,4 @@
-# EsperantoLatam
-Soporte a Esperanto con Teclado latinoamerico
+# Esperanto
+Soporte a Esperanto
 
 https://forum.duolingo.com/comment/52875305
